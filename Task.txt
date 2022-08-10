@@ -1,0 +1,11 @@
+Есть такая штука BitFinex это криптобиржа. Ты можешь котировки собирать с неё через http запросы
+https://docs.bitfinex.com/docs/rest-public
+
+Скрипт
+    Сделай скрипт который собирает все тикеры с биржи https://docs.bitfinex.com/reference/rest-public-conf
+
+Тесты
+    Напиши тест который проверяет доступность сервиса через Platform status https://docs.bitfinex.com/reference/rest-public-platform-status
+    Напиши тест который проверяет что запрос на тикеры ответил 200 ок
+    Напиши тест который проверяет что в ответе есть tBTCUSD
+    Напиши тест который проверяет что кол-во тикер что оно больше 100
